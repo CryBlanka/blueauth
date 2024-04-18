@@ -1,5 +1,7 @@
 # Bluesky Custom Authentication System
 
+## Live demo: https://blanka.lol/validation/bsky.php
+
 ## Overview
 This is a custom authentication system designed for Bluesky, a social media platform, allowing users to verify their ownership of an account. The system generates a unique random string for each user, which they must post on their Bluesky account for validation.
 
