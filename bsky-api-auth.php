@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['handle']) && isset($_P
     $handle = $_POST['handle'];
     $randomString = $_POST['randomString'];
 
-    $apiUrl = 'https://api.clippsly.com/v1/external/bsky-latest-post?handle=' . urlencode($handle);
+    $apiUrl = '/bsky-local-api.php?handle=' . urlencode($handle);
     $postResponse = file_get_contents($apiUrl);
 
     if ($postResponse !== false) {
