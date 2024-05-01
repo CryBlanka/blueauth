@@ -5,6 +5,12 @@
 ## Overview
 This is a custom authentication system designed for Bluesky, a social media platform, allowing users to verify their ownership of an account. The system generates a unique random string for each user, which they must post on their Bluesky account for validation.
 
+## Pre
+Please install [**socialweb/atproto**](https://github.com/socialweb-php/atproto) composer package.
+```bash
+composer require socialweb/atproto
+```
+
 ## Components
 - **Frontend**: 
   - HTML, CSS (Bootstrap), and JavaScript are used for the user interface.
@@ -14,6 +20,7 @@ This is a custom authentication system designed for Bluesky, a social media plat
 - **Backend**:
   - `bsky-api-string.php`: Generates a random string associated with the user's Bluesky handle.
   - `bsky-api-auth.php`: Validates the ownership of the account by comparing the posted string with the generated one.
+  - `bsky-local-api.php`: Grabs the latest feed post.
 
 ## Usage
 1. **Input Bluesky Handle**: Users enter their Bluesky handle in the provided field.
@@ -25,7 +32,7 @@ This is a custom authentication system designed for Bluesky, a social media plat
 ## Technologies Used
 - HTML, CSS (Bootstrap), JavaScript for frontend development.
 - PHP for backend handling of string generation and authentication.
-- cURL for making requests to Clippsly to Bluesky API bridge.
+- cURL for making requests to Bluesky API.
 
 ## Note
 - **Backend Integration**: Ensure proper integration and configuration of the backend scripts (`bsky-api-string.php` and `bsky-api-auth.php`) for the system to function correctly.
