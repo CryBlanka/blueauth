@@ -1,8 +1,4 @@
-# Blueauth
-
-## Live demo: https://blanka.lol/validation/bsky.php
-
-## Overview
+# Blueauth (Live demo: https://blanka.lol/validation/bsky.php)
 This is a custom authentication system designed for Bluesky, a social media platform, allowing users to verify their ownership of an account. The system generates a unique random string for each user, which they must post on their Bluesky account for validation.
 
 ![Blueauth](https://github.com/CryBlanka/blueauth/blob/main/blueauth-system.jpg?raw=true)
