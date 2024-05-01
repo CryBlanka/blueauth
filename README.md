@@ -5,7 +5,7 @@
 ## Overview
 This is a custom authentication system designed for Bluesky, a social media platform, allowing users to verify their ownership of an account. The system generates a unique random string for each user, which they must post on their Bluesky account for validation.
 
-![Blueauth](https://blanka.lol/assets/blueauth-system.jpg)
+![Blueauth](https://github.com/CryBlanka/blueauth/blob/main/blueauth-system.jpg?raw=true)
 
 ## Pre
 Please install [**socialweb/atproto**](https://github.com/socialweb-php/atproto) composer package.
