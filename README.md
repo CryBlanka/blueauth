@@ -1,4 +1,4 @@
-# Bluesky Custom Authentication System
+# Blueauth
 
 ## Live demo: https://blanka.lol/validation/bsky.php
 
