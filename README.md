@@ -22,13 +22,10 @@ This is a custom authentication system designed for Bluesky, a social media plat
 4. **Validation**: The system validates the ownership based on the posted string.
 5. **Feedback**: Users receive immediate feedback on the validation status through alerts.
 
-## Obtaining Bearer Key
-To obtain the Bearer key required for authentication (In the `bsky-api-auth.php`), visit [autocode.com/bluesky/api/feed/0.1.0](https://autocode.com/bluesky/api/feed/0.1.0).
-
 ## Technologies Used
 - HTML, CSS (Bootstrap), JavaScript for frontend development.
 - PHP for backend handling of string generation and authentication.
-- cURL for making requests to Bluesky API.
+- cURL for making requests to Clippsly to Bluesky API bridge.
 
 ## Note
 - **Backend Integration**: Ensure proper integration and configuration of the backend scripts (`bsky-api-string.php` and `bsky-api-auth.php`) for the system to function correctly.
